@@ -1,0 +1,662 @@
+================ training fraction analysis experiment ================
+
+-----resultado final-----
+
+time_total: 179519
+avg_time_train: 7.373134328358209
+avg_time_test: 9.962790155138224
+qtd_train: 67
+qtd_test: 8573
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               191 |               546 |
+|Condição negativa prevista    |               105 |              7731 |
+metric; value
+Sensitivity; 0.6452702702702703
+Specificity; 0.9340340703153316
+Precision; 0.2591587516960651
+Negative-Predictive-Value; 0.9866003062787136
+False-Negative-Rate; 0.3547297297297297
+False-Positive-Rate; 0.06596592968466836
+False-Discovery-Rate; 0.7408412483039348
+False-Omission-Rate; 0.01339969372128637
+Prevalence-Threshold; 0.24227163098280793
+Critical-Success-Index; 0.22684085510688837
+Accuracy; 0.9240639216143707
+Balanced-Accuracy; 0.789652170292801
+F1_score; 0.3697967086156825
+FMI; 0.40893451523419466
+MCC; 0.377318551124932
+Informedness; 0.579304340585602
+Markedness; 0.24575905797477882
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.6452702702702703; 0.2591587516960651; 0.9240639216143707; 0.3697967086156825; 0.40893451523419466; 0.377318551124932
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.1
+wsize: 10
+cut_factor: 0.1
+
+-----resultado final-----
+
+time_total: 175424
+avg_time_train: 10.701492537313433
+avg_time_test: 8.71016393442623
+qtd_train: 67
+qtd_test: 7625
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               187 |               294 |
+|Condição negativa prevista    |                97 |              7047 |
+metric; value
+Sensitivity; 0.6584507042253521
+Specificity; 0.959950960359624
+Precision; 0.3887733887733888
+Negative-Predictive-Value; 0.9864221724524076
+False-Negative-Rate; 0.3415492957746479
+False-Positive-Rate; 0.04004903964037597
+False-Discovery-Rate; 0.6112266112266113
+False-Omission-Rate; 0.013577827547592385
+Prevalence-Threshold; 0.1978331735209729
+Critical-Success-Index; 0.3235294117647059
+Accuracy; 0.9487213114754098
+Balanced-Accuracy; 0.8092008322924881
+F1_score; 0.4888888888888889
+FMI; 0.5059526772554075
+MCC; 0.4816861629805519
+Informedness; 0.6184016645849761
+Markedness; 0.37519556122579645
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.6584507042253521; 0.3887733887733888; 0.9487213114754098; 0.4888888888888889; 0.5059526772554075; 0.4816861629805519
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.2
+wsize: 10
+cut_factor: 0.1
+
+-----resultado final-----
+
+time_total: 172627
+avg_time_train: 13.955223880597014
+avg_time_test: 8.424006001500375
+qtd_train: 67
+qtd_test: 6665
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               177 |               271 |
+|Condição negativa prevista    |                88 |              6129 |
+metric; value
+Sensitivity; 0.6679245283018868
+Specificity; 0.95765625
+Precision; 0.3950892857142857
+Negative-Predictive-Value; 0.9858452629885797
+False-Negative-Rate; 0.3320754716981132
+False-Positive-Rate; 0.04234375
+False-Discovery-Rate; 0.6049107142857143
+False-Omission-Rate; 0.0141547370114203
+Prevalence-Threshold; 0.20114118115632895
+Critical-Success-Index; 0.3302238805970149
+Accuracy; 0.9461365341335334
+Balanced-Accuracy; 0.8127903891509434
+F1_score; 0.4964936886395512
+FMI; 0.5137020778601578
+MCC; 0.48816527064060644
+Informedness; 0.6255807783018867
+Markedness; 0.38093454870286525
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.6679245283018868; 0.3950892857142857; 0.9461365341335334; 0.4964936886395512; 0.5137020778601578; 0.48816527064060644
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.3
+wsize: 10
+cut_factor: 0.1
+
+-----resultado final-----
+
+time_total: 197180
+avg_time_train: 19.850746268656717
+avg_time_test: 11.643200334238562
+qtd_train: 67
+qtd_test: 4787
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               161 |               250 |
+|Condição negativa prevista    |                75 |              4301 |
+metric; value
+Sensitivity; 0.6822033898305084
+Specificity; 0.94506701823775
+Precision; 0.39172749391727496
+Negative-Predictive-Value; 0.9828610603290676
+False-Negative-Rate; 0.3177966101694915
+False-Positive-Rate; 0.054932981762250054
+False-Discovery-Rate; 0.6082725060827251
+False-Omission-Rate; 0.017138939670932357
+Prevalence-Threshold; 0.22104156013864817
+Critical-Success-Index; 0.33127572016460904
+Accuracy; 0.9321077919364946
+Balanced-Accuracy; 0.8136352040341293
+F1_score; 0.49768160741885625
+FMI; 0.5169505046328661
+MCC; 0.4847353043464054
+Informedness; 0.6272704080682585
+Markedness; 0.3745885542463425
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.6822033898305084; 0.39172749391727496; 0.9321077919364946; 0.49768160741885625; 0.5169505046328661; 0.4847353043464054
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.5
+wsize: 10
+cut_factor: 0.1
+
+-----resultado final-----
+
+time_total: 166928
+avg_time_train: 21.52238805970149
+avg_time_test: 10.332113927358243
+qtd_train: 67
+qtd_test: 3827
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               146 |               173 |
+|Condição negativa prevista    |                70 |              3438 |
+metric; value
+Sensitivity; 0.6759259259259259
+Specificity; 0.9520908335641096
+Precision; 0.45768025078369906
+Negative-Predictive-Value; 0.9800456100342075
+False-Negative-Rate; 0.32407407407407407
+False-Positive-Rate; 0.047909166435890334
+False-Discovery-Rate; 0.542319749216301
+False-Omission-Rate; 0.019954389965792473
+Prevalence-Threshold; 0.21025511762161136
+Critical-Success-Index; 0.37532133676092544
+Accuracy; 0.9365037888685654
+Balanced-Accuracy; 0.8140083797450177
+F1_score; 0.5457943925233645
+FMI; 0.5561995570737015
+MCC; 0.524308283985527
+Informedness; 0.6280167594900354
+Markedness; 0.43772586081790665
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.6759259259259259; 0.45768025078369906; 0.9365037888685654; 0.5457943925233645; 0.5561995570737015; 0.524308283985527
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.6
+wsize: 10
+cut_factor: 0.1
+
+================ windows size analysis experiment ================
+
+-----resultado final-----
+
+time_total: 456534
+avg_time_train: 26.01492537313433
+avg_time_test: 8.483749452474814
+qtd_train: 67
+qtd_test: 11415
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               237 |               466 |
+|Condição negativa prevista    |               163 |             10549 |
+metric; value
+Sensitivity; 0.5925
+Specificity; 0.9576940535633227
+Precision; 0.33712660028449504
+Negative-Predictive-Value; 0.9847834204630321
+False-Negative-Rate; 0.4075
+False-Positive-Rate; 0.04230594643667726
+False-Discovery-Rate; 0.662873399715505
+False-Omission-Rate; 0.015216579536967886
+Prevalence-Threshold; 0.21086627813164704
+Critical-Success-Index; 0.27367205542725176
+Accuracy; 0.9448970652650022
+Balanced-Accuracy; 0.7750970267816614
+F1_score; 0.42973708068902994
+FMI; 0.4469312146947932
+MCC; 0.4208479288267144
+Informedness; 0.5501940535633227
+Markedness; 0.32191002074752717
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.5925; 0.33712660028449504; 0.9448970652650022; 0.42973708068902994; 0.4469312146947932; 0.4208479288267144
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.4
+wsize: 5
+cut_factor: 0.1
+
+-----resultado final-----
+
+time_total: 178177
+avg_time_train: 14.238805970149254
+avg_time_test: 9.696805725257462
+qtd_train: 67
+qtd_test: 5729
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               170 |               254 |
+|Condição negativa prevista    |                86 |              5219 |
+metric; value
+Sensitivity; 0.6640625
+Specificity; 0.9535903526402338
+Precision; 0.4009433962264151
+Negative-Predictive-Value; 0.9837888784165881
+False-Negative-Rate; 0.3359375
+False-Positive-Rate; 0.046409647359766125
+False-Discovery-Rate; 0.5990566037735849
+False-Omission-Rate; 0.016211121583411876
+Prevalence-Threshold; 0.20908750978885324
+Critical-Success-Index; 0.3333333333333333
+Accuracy; 0.9406528189910979
+Balanced-Accuracy; 0.8088264263201169
+F1_score; 0.5
+FMI; 0.5159956143772966
+MCC; 0.4874740884765229
+Informedness; 0.6176528526402338
+Markedness; 0.3847322746430033
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.6640625; 0.4009433962264151; 0.9406528189910979; 0.5; 0.5159956143772966; 0.4874740884765229
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.4
+wsize: 10
+cut_factor: 0.1
+
+-----resultado final-----
+
+time_total: 116339
+avg_time_train: 10.671641791044776
+avg_time_test: 10.729553174810556
+qtd_train: 67
+qtd_test: 3827
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               147 |               172 |
+|Condição negativa prevista    |                54 |              3454 |
+metric; value
+Sensitivity; 0.7313432835820896
+Specificity; 0.9525648097076669
+Precision; 0.4608150470219436
+Negative-Predictive-Value; 0.9846066134549601
+False-Negative-Rate; 0.26865671641791045
+False-Positive-Rate; 0.04743519029233315
+False-Discovery-Rate; 0.5391849529780565
+False-Omission-Rate; 0.01539338654503991
+Prevalence-Threshold; 0.20298210701084224
+Critical-Success-Index; 0.3941018766756032
+Accuracy; 0.9409459106349621
+Balanced-Accuracy; 0.8419540466448783
+F1_score; 0.5653846153846154
+FMI; 0.5805290600935178
+MCC; 0.5519306827190498
+Informedness; 0.6839080932897565
+Markedness; 0.4454216604769037
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.7313432835820896; 0.4608150470219436; 0.9409459106349621; 0.5653846153846154; 0.5805290600935178; 0.5519306827190498
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.4
+wsize: 15
+cut_factor: 0.1
+
+-----resultado final-----
+
+time_total: 84876
+avg_time_train: 8.626865671641792
+avg_time_test: 11.597777005904828
+qtd_train: 67
+qtd_test: 2879
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               140 |               138 |
+|Condição negativa prevista    |                44 |              2557 |
+metric; value
+Sensitivity; 0.7608695652173914
+Specificity; 0.9487940630797773
+Precision; 0.5035971223021583
+Negative-Predictive-Value; 0.9830834294502114
+False-Negative-Rate; 0.2391304347826087
+False-Positive-Rate; 0.051205936920222635
+False-Discovery-Rate; 0.49640287769784175
+False-Omission-Rate; 0.016916570549788543
+Prevalence-Threshold; 0.20598430825384786
+Critical-Success-Index; 0.43478260869565216
+Accuracy; 0.9367836054185481
+Balanced-Accuracy; 0.8548318141485843
+F1_score; 0.6060606060606061
+FMI; 0.6190086618867079
+MCC; 0.5876899575271426
+Informedness; 0.7096636282971687
+Markedness; 0.4866805517523698
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.7608695652173914; 0.5035971223021583; 0.9367836054185481; 0.6060606060606061; 0.6190086618867079; 0.5876899575271426
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.4
+wsize: 20
+cut_factor: 0.1
+
+-----resultado final-----
+
+time_total: 73907
+avg_time_train: 7.388059701492537
+avg_time_test: 14.198535745047373
+qtd_train: 67
+qtd_test: 2322
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               136 |               153 |
+|Condição negativa prevista    |                36 |              1997 |
+metric; value
+Sensitivity; 0.7906976744186046
+Specificity; 0.9288372093023256
+Precision; 0.47058823529411764
+Negative-Predictive-Value; 0.9822921790457452
+False-Negative-Rate; 0.20930232558139536
+False-Positive-Rate; 0.07116279069767442
+False-Discovery-Rate; 0.5294117647058824
+False-Omission-Rate; 0.017707820954254796
+Prevalence-Threshold; 0.23076923076923062
+Critical-Success-Index; 0.41846153846153844
+Accuracy; 0.9186046511627907
+Balanced-Accuracy; 0.859767441860465
+F1_score; 0.5900216919739696
+FMI; 0.6099942813304187
+MCC; 0.5708443362875031
+Informedness; 0.7195348837209301
+Markedness; 0.4528804143398628
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.7906976744186046; 0.47058823529411764; 0.9186046511627907; 0.5900216919739696; 0.6099942813304187; 0.5708443362875031
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.4
+wsize: 25
+cut_factor: 0.1
+
+-----resultado final-----
+
+time_total: 59175
+avg_time_train: 6.8059701492537314
+avg_time_test: 12.608515057113188
+qtd_train: 67
+qtd_test: 1926
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               115 |                91 |
+|Condição negativa prevista    |                40 |              1680 |
+metric; value
+Sensitivity; 0.7419354838709677
+Specificity; 0.9486166007905138
+Precision; 0.558252427184466
+Negative-Predictive-Value; 0.9767441860465116
+False-Negative-Rate; 0.25806451612903225
+False-Positive-Rate; 0.05138339920948617
+False-Discovery-Rate; 0.441747572815534
+False-Omission-Rate; 0.023255813953488372
+Prevalence-Threshold; 0.20833786819756125
+Critical-Success-Index; 0.46747967479674796
+Accuracy; 0.9319833852544133
+Balanced-Accuracy; 0.8452760423307408
+F1_score; 0.6371191135734072
+FMI; 0.6435738377880575
+MCC; 0.6078182512507205
+Informedness; 0.6905520846614817
+Markedness; 0.5349966132309776
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.7419354838709677; 0.558252427184466; 0.9319833852544133; 0.6371191135734072; 0.6435738377880575; 0.6078182512507205
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.4
+wsize: 30
+cut_factor: 0.1
+
+================ cut factor analysis experiment ================
+
+-----resultado final-----
+
+time_total: 126228
+avg_time_train: 11.223880597014926
+avg_time_test: 3.6454878687379995
+qtd_train: 67
+qtd_test: 5729
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |                79 |                37 |
+|Condição negativa prevista    |               177 |              5436 |
+metric; value
+Sensitivity; 0.30859375
+Specificity; 0.9932395395578294
+Precision; 0.6810344827586207
+Negative-Predictive-Value; 0.968466060929984
+False-Negative-Rate; 0.69140625
+False-Positive-Rate; 0.006760460442170656
+False-Discovery-Rate; 0.31896551724137934
+False-Omission-Rate; 0.03153393907001603
+Prevalence-Threshold; 0.128928357669923
+Critical-Success-Index; 0.2696245733788396
+Accuracy; 0.9626461860708675
+Balanced-Accuracy; 0.6509166447789148
+F1_score; 0.42473118279569894
+FMI; 0.4584353661245968
+MCC; 0.4427650456744866
+Informedness; 0.3018332895578295
+Markedness; 0.6495005436886045
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.30859375; 0.6810344827586207; 0.9626461860708675; 0.42473118279569894; 0.4584353661245968; 0.4427650456744866
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.4
+wsize: 10
+cut_factor: 0.0
+
+-----resultado final-----
+
+time_total: 153793
+avg_time_train: 13.417910447761194
+avg_time_test: 5.807994414382964
+qtd_train: 67
+qtd_test: 5729
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               143 |               112 |
+|Condição negativa prevista    |               113 |              5361 |
+metric; value
+Sensitivity; 0.55859375
+Specificity; 0.9795359035264023
+Precision; 0.5607843137254902
+Negative-Predictive-Value; 0.9793569601753745
+False-Negative-Rate; 0.44140625
+False-Positive-Rate; 0.020464096473597662
+False-Discovery-Rate; 0.4392156862745098
+False-Omission-Rate; 0.020643039824625502
+Prevalence-Threshold; 0.16065329614771667
+Critical-Success-Index; 0.38858695652173914
+Accuracy; 0.9607261302146971
+Balanced-Accuracy; 0.7690648267632012
+F1_score; 0.5596868884540117
+FMI; 0.5596879601573523
+MCC; 0.5391345254939456
+Informedness; 0.5381296535264024
+Markedness; 0.5401412739008649
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.55859375; 0.5607843137254902; 0.9607261302146971; 0.5596868884540117; 0.5596879601573523; 0.5391345254939456
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.4
+wsize: 10
+cut_factor: 0.05
+
+-----resultado final-----
+
+time_total: 236188
+avg_time_train: 17.0
+avg_time_test: 13.243497992668878
+qtd_train: 67
+qtd_test: 5729
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               186 |               321 |
+|Condição negativa prevista    |                70 |              5152 |
+metric; value
+Sensitivity; 0.7265625
+Specificity; 0.9413484377854924
+Precision; 0.3668639053254438
+Negative-Predictive-Value; 0.9865951742627346
+False-Negative-Rate; 0.2734375
+False-Positive-Rate; 0.05865156221450758
+False-Discovery-Rate; 0.6331360946745562
+False-Omission-Rate; 0.013404825737265416
+Prevalence-Threshold; 0.2212571741749389
+Critical-Success-Index; 0.3223570190641248
+Accuracy; 0.9317507418397626
+Balanced-Accuracy; 0.8339554688927462
+F1_score; 0.4875491480996068
+FMI; 0.5162843753330307
+MCC; 0.4858798054216055
+Informedness; 0.6679109377854924
+Markedness; 0.35345907958817824
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.7265625; 0.3668639053254438; 0.9317507418397626; 0.4875491480996068; 0.5162843753330307; 0.4858798054216055
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.4
+wsize: 10
+cut_factor: 0.15
+
+-----resultado final-----
+
+time_total: 261702
+avg_time_train: 21.82089552238806
+avg_time_test: 14.912724733810439
+qtd_train: 67
+qtd_test: 5729
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               200 |               385 |
+|Condição negativa prevista    |                56 |              5088 |
+metric; value
+Sensitivity; 0.78125
+Specificity; 0.929654668372008
+Precision; 0.3418803418803419
+Negative-Predictive-Value; 0.9891135303265941
+False-Negative-Rate; 0.21875
+False-Positive-Rate; 0.07034533162799196
+False-Discovery-Rate; 0.6581196581196581
+False-Omission-Rate; 0.01088646967340591
+Prevalence-Threshold; 0.23081066796423527
+Critical-Success-Index; 0.31201248049922
+Accuracy; 0.9230232152208064
+Balanced-Accuracy; 0.8554523341860041
+F1_score; 0.4756242568370987
+FMI; 0.5168113941217019
+MCC; 0.48508255890563473
+Informedness; 0.7109046683720082
+Markedness; 0.3309938722069359
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.78125; 0.3418803418803419; 0.9230232152208064; 0.4756242568370987; 0.5168113941217019; 0.48508255890563473
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.4
+wsize: 10
+cut_factor: 0.2
+
+-----resultado final-----
+
+time_total: 267451
+avg_time_train: 17.686567164179106
+avg_time_test: 18.58736254145575
+qtd_train: 67
+qtd_test: 5729
+|População total               |Condição positiva  |Condição negativa  |
+|Condição positiva prevista    |               204 |               449 |
+|Condição negativa prevista    |                52 |              5024 |
+metric; value
+Sensitivity; 0.796875
+Specificity; 0.9179608989585236
+Precision; 0.3124042879019908
+Negative-Predictive-Value; 0.9897557131599685
+False-Negative-Rate; 0.203125
+False-Positive-Rate; 0.08203910104147634
+False-Discovery-Rate; 0.6875957120980092
+False-Omission-Rate; 0.01024428684003152
+Prevalence-Threshold; 0.242917394146021
+Critical-Success-Index; 0.28936170212765955
+Accuracy; 0.912550183278059
+Balanced-Accuracy; 0.8574179494792618
+F1_score; 0.44884488448844884
+FMI; 0.4989460561242056
+MCC; 0.46475242440296544
+Informedness; 0.7148358989585235
+Markedness; 0.30216000106195917
+
+Sintese
+
+Sensitivity; Precision; Accuracy; F1_score; FMI; MCC
+0.796875; 0.3124042879019908; 0.912550183278059; 0.44884488448844884; 0.4989460561242056; 0.46475242440296544
+Benchmark: A1-full
+marcara: outliers_nonstationary
+margin_of_error_test: 0.1
+alert_level_conf: 0.1
+fraction_train: 0.4
+wsize: 10
+cut_factor: 0.25
+
