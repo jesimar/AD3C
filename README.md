@@ -54,7 +54,7 @@ O diretório [[3-Synthetic-Dataset](./Results/3-Synthetic-Dataset/)] possui cinc
 | Synthetic Dataset Multivariate - Instance 1                    | Synthetic Dataset Multivariate - Instance 2                    |
 | ![](./Results/3-Synthetic-Dataset/plot-multivariate-3.csv.svg) | ![](./Results/3-Synthetic-Dataset/plot-multivariate-4.csv.svg) |
 | Synthetic Dataset Multivariate - Instance 3                    | Synthetic Dataset Multivariate - Instance 4                    |
-| ![](./Results/3-Synthetic-Dataset/plot-multivariate-5.csv.svg) | []                                                             |
+| ![](./Results/3-Synthetic-Dataset/plot-multivariate-5.csv.svg) |                                                                |
 | Synthetic Dataset Multivariate - Instance 5                    |                                                                |
 
 ## Results Case Study
