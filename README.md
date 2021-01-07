@@ -1,8 +1,8 @@
-# AD3C
+# AOD
 
 <p align="center">
   <a href="#">
-    <img src="https://img.shields.io/badge/AD3C-brightgreen.svg" alt="AD3C">
+    <img src="https://img.shields.io/badge/AOD-brightgreen.svg" alt="AOD">
   </a>
   <a href="#">
     <img src="https://img.shields.io/badge/Anomaly-Detection-blue.svg" alt="Anomaly-Detection">
@@ -12,7 +12,7 @@
   </a>
 </p>
 
-Repositório com os resultados do método AD3C. 
+O objetivo deste repositório é organizar os resultados obtidos pelo método de Anomaly and Outlier Detection (AOD). 
 
 Na pasta [[YOB](./YOB/)] temos os resultados do método AD3C aplicado sobre o benchmark do Yahoo Outlier Benchmark. A pasta YOB possui quatro subpastas que são: A1, A2, A3 e A4. Dentro de cada uma dessas pastas, existem ainda três subpastas, que são: analysis-training-fraction, analysis-window-size e analysis-cut-factor. Dentro de cada uma dessas pastas existem ainda mais subpastas com nomes que revelam os valores dos parâmetros utilizados nos experimentos de análise de sensibilidade. Por fim, dentro de cada pasta temos imagens com os resultados dos experimentos. Algumas das imagens dos experimentos são como mostrado a seguir. 
 
