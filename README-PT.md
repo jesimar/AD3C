@@ -12,15 +12,15 @@
   </a>
 </p>
 
-The main objective of this repository is to organize the results obtained by the Anomaly and Outlier Detection (AOD) method that works on time series data. 
+O principal objetivo deste repositório é fazer a organização dos resultados obtidos pelo método de Anomaly and Outlier Detection (AOD) que funciona sobre dados de séries temporais. 
 
-The [Instances](./Instances/) directory stores the instance files in csv that were generated and used in the experiments. The published files are about multivariate time series. The instances of YOB (Yahoo Outlier Benchmark) and NAB (Numenta Anomaly Benchmark) are not disclosed here, but can be obtained from the links [YOB](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s\&did=70) and [NAB](https://github.com/numenta/NAB).
+O diretório [Instances](./Instances/) armazena os arquivos de instância em csv que foram gerados e utilizados nos experimentos. Os arquivos divulgados são sobre séries temporais multivariadas. As instâncias do YOB (Yahoo Outlier Benchmark) e NAB (Numenta Anomaly Benchmark) não estão aqui divulgados, mas podem ser obtidos nos links [YOB](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s\&did=70) [NAB](https://github.com/numenta/NAB).
 
-The [Results](./Results/) directory stores the results obtained by the AOD method. This directory has the following subdirectories: 1-YOB, 2-NAB, 3-Synthetic-Dataset and 4-Case-Study.
+O diretório [Results](./Results/) armazena os resultados obtidos pelo método AOD. Este diretório possui os seguintes sub-diretórios: 1-YOB, 2-NAB, 3-Synthetic-Dataset e 4-Case-Study. 
 
 ### Results YOB
 
-The [1-YOB](./Results/1-YOB/) directory has four subdirectories which are: A1, A2, A3 and A4. Inside each of these directories we have the images showing the results of the experiments on the YOB benchmark. The images give a photographic idea that shows how the method works. Some of the images from the experiments are shown below.
+O diretório [1-YOB](./Results/1-YOB/) possui quatro sub-diretórios que são: A1, A2, A3 e A4. Dentro de cada uma desses diretórios temos as imagens mostrando os resultados dos experimentos sobre o benchmark YOB. As imagens dão uma ideia fotográfica que mostram o funcionamento do método. Algumas das imagens dos experimentos são mostradas a seguir. 
 
 | Results - YOB                                          | Results - YOB                                          |
 |:------------------------------------------------------:|:------------------------------------------------------:|
@@ -31,7 +31,7 @@ The [1-YOB](./Results/1-YOB/) directory has four subdirectories which are: A1, A
 
 ### Results NAB
 
-The [2-NAB](./Results/2-NAB/) directory has seven subdirectories which are: artificialNoAnomaly, artificialWithAnomaly, realAdExchange, realAWSCloudwatch, realKnownCause, realTraffic and realTweets. Inside each one of these directories we have the images showing the results of the experiments on the NAB benchmark. Some of the images from the experiments are shown below.
+O diretório [2-NAB](./Results/2-NAB/) possui sete sub-diretórios que são: artificialNoAnomaly, artificialWithAnomaly, realAdExchange, realAWSCloudwatch, realKnownCause, realTraffic e realTweets. Dentro de cada uma desses diretórios temos as imagens mostrando os resultados dos experimentos sobre o benchmark NAB. Algumas das imagens dos experimentos são mostradas a seguir. 
 
 | Results - NAB                                             | Results - NAB                                                   |
 |:---------------------------------------------------------:|:---------------------------------------------------------------:|
@@ -46,7 +46,7 @@ The [2-NAB](./Results/2-NAB/) directory has seven subdirectories which are: arti
 
 ### Results Synthetic Dataset
 
-The [3-Synthetic-Dataset](./Results/3-Synthetic-Dataset/) directory has five files in which these files contain the images showing the results of experiments on synthetic data generated using the [agots](https://github.com/KDD-OpenSource/agots) tool. Some of the images from the experiments are shown below. 
+O diretório [3-Synthetic-Dataset](./Results/3-Synthetic-Dataset/) possui cinco arquivos em que esses arquivos contém as imagens mostrando os resultados dos experimentos sobre dados sintéticos gerados utilizando a ferramenta [agots](https://github.com/KDD-OpenSource/agots). Algumas das imagens dos experimentos são mostradas a seguir. 
 
 | Results - Synthetic Dataset                                    | Results - Synthetic Dataset                                    |
 |:--------------------------------------------------------------:|:--------------------------------------------------------------:|
@@ -59,6 +59,6 @@ The [3-Synthetic-Dataset](./Results/3-Synthetic-Dataset/) directory has five fil
 
 ### Results Case Study
 
-The [4-Case-Study](./Results/4-Case-Study/) directory has a file containing an image showing the result of one of the experiments performed on the case study with multivariate data. An example image of one of the experiments is shown below. 
+O diretório [4-Case-Study](./Results/4-Case-Study/) possui um arquivo contendo uma imagem mostrando o resultado de um dos experimento realizados sobre o estudo de caso com dados multivariados. Um exemplo de imagem de um dos experimentos é mostrado a seguir. 
 
 ![](./Results/4-Case-Study/plot-db_sensors.csv.svg)
