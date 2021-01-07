@@ -33,16 +33,16 @@ O diretório [[1-YOB](./Results/1-YOB/)] possui quatro sub-diretórios que são:
 
 O diretório [[2-NAB](./Results/2-NAB/)] possui sete sub-diretórios que são: artificialNoAnomaly, artificialWithAnomaly, realAdExchange, realAWSCloudwatch, realKnownCause, realTraffic e realTweets. Dentro de cada uma desses diretórios temos as imagens mostrando os resultados dos experimentos. Algumas das imagens dos experimentos são mostradas a seguir. 
 
-| Results - NAB                                          | Results - NAB                                          |
-|:------------------------------------------------------:|:------------------------------------------------------:|
-| ![](./Results/2-NAB/A1/plot-real_55.csv.svg)           | ![](./Results/2-NAB/A2/plot-synthetic_38.csv.svg)      |
-| artificialNoAnomaly - art_daily_small_noise            | artificialWithAnomaly - art_daily_jumpsdown            |
-| ![](./Results/2-NAB/A3/plot-A3Benchmark-TS39.csv.svg)  | ![](./Results/2-NAB/A4/plot-A4Benchmark-TS35.csv.svg)  |
-| realAdExchange - exchange-4_cpm_results                | realAWSCloudwatch - ec2_cpu_utilization_fe7f93         |
-| ![](./Results/2-NAB/A3/plot-A3Benchmark-TS39.csv.svg)  | ![](./Results/2-NAB/A4/plot-A4Benchmark-TS35.csv.svg)  |
-| realKnownCause - machine_temperature_system_failure    | realKnownCause - ambient_temperature_system_failure    |
-| ![](./Results/2-NAB/A3/plot-A3Benchmark-TS39.csv.svg)  | ![](./Results/2-NAB/A4/plot-A4Benchmark-TS35.csv.svg)  |
-| realTraffic - speed_t4013                              | realTweets - Twitter_volume_CVS                        |
+| Results - NAB                                             | Results - NAB                                                   |
+|:---------------------------------------------------------:|:---------------------------------------------------------------:|
+| ![](./Results/2-NAB/artificialNoAnomaly/plot-art_daily_small_noise.csv.svg) | ![](./Results/2-NAB/artificialWithAnomaly/plot-art_daily_jumpsdown.csv.svg) |
+| artificialNoAnomaly - art_daily_small_noise               | artificialWithAnomaly - art_daily_jumpsdown                     |
+| ![](./Results/2-NAB/realAdExchange/plot-exchange-4_cpm_results.csv.svg) | ![](./Results/2-NAB/realAWSCloudwatch/plot-ec2_cpu_utilization_fe7f93.csv.svg) |
+| realAdExchange - exchange-4_cpm_results                   | realAWSCloudwatch - ec2_cpu_utilization_fe7f93                  |
+| ![](./Results/2-NAB/realKnownCause/plot-machine_temperature_system_failure.csv.svg)  | ![](./Results/2-NAB/realKnownCause/plot-ambient_temperature_system_failure.csv.svg)  |
+| realKnownCause - machine_temperature_system_failure       | realKnownCause - ambient_temperature_system_failure             |
+| ![](./Results/2-NAB/realTraffic/plot-speed_t4013.csv.svg) | ![](./Results/2-NAB/realTweets/plot-Twitter_volume_CVS.csv.svg) |
+| realTraffic - speed_t4013                                 | realTweets - Twitter_volume_CVS                                 |
 
 ## Results Synthetic Dataset
 
@@ -54,11 +54,11 @@ O diretório [[3-Synthetic-Dataset](./Results/3-Synthetic-Dataset/)] possui cinc
 | Synthetic Dataset Multivariate - Instance 1                    | Synthetic Dataset Multivariate - Instance 2                    |
 | ![](./Results/3-Synthetic-Dataset/plot-multivariate-3.csv.svg) | ![](./Results/3-Synthetic-Dataset/plot-multivariate-4.csv.svg) |
 | Synthetic Dataset Multivariate - Instance 3                    | Synthetic Dataset Multivariate - Instance 4                    |
-| ![](./Results/3-Synthetic-Dataset/plot-multivariate-5.csv.svg) | ![.](.)                                                        |
+| ![](./Results/3-Synthetic-Dataset/plot-multivariate-5.csv.svg) | []                                                             |
 | Synthetic Dataset Multivariate - Instance 5                    |                                                                |
 
 ## Results Case Study
 
 O diretório [[4-Case-Study](./Results/4-Case-Study/)] possui um arquivo contendo uma imagem mostrando o resultado de um dos experimento realizados sobre o estudo de caso com dados multivariados. Um exemplo de imagem de um dos experimentos é mostrado a seguir. 
 
-![](./Results/4-Case-Study/plot-result.svg)
+![](./Results/4-Case-Study/plot-db_sensors.csv.svg)
