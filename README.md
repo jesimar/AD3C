@@ -14,7 +14,7 @@
 
 The main objective of this repository is to organize the results obtained by the Anomaly and Outlier Detection (AOD) method that works on time series data. 
 
-The [Instances](./Instances/) directory stores the instance files in csv that were generated and used in the experiments. The published files are about multivariate time series. The instances of YOB (Yahoo Outlier Benchmark) and NAB (Numenta Anomaly Benchmark) are not disclosed here, but can be obtained from the links [YOB](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s\&did=70) and [NAB](https://github.com/numenta/NAB).
+The [Instances](./Instances/) directory stores the instance files in csv that were generated and used in the experiments. The published files are about multivariate time series. The instances of YOB (Yahoo Outlier Benchmark) and NAB (Numenta Anomaly Benchmark) are not disclosed here, but can be obtained from the links [YOB](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s\&did=70) and [NAB](https://github.com/numenta/NAB). The instance of the case study was not disclosed due to industrial property issues.
 
 The [Results](./Results/) directory stores the results obtained by the AOD method. This directory has the following subdirectories: 1-YOB, 2-NAB, 3-Synthetic-Dataset and 4-Case-Study.
 
