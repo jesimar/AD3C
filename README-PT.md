@@ -16,7 +16,9 @@ O principal objetivo deste repositório é fazer a organização dos resultados 
 
 O diretório [Instances](./Instances/) armazena os arquivos de instância em csv que foram gerados e utilizados nos experimentos. Os arquivos divulgados são sobre séries temporais multivariadas. As instâncias do YOB (Yahoo Outlier Benchmark) e NAB (Numenta Anomaly Benchmark) não estão aqui divulgados, mas podem ser obtidos nos links [YOB](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s\&did=70) [NAB](https://github.com/numenta/NAB). A instância do estudo de caso não foi divulgado devido a questões de propriedade industrial. 
 
-O diretório [Results](./Results/) armazena os resultados obtidos pelo método AOD. Este diretório possui os seguintes sub-diretórios: 1-YOB, 2-NAB, 3-Synthetic-Dataset e 4-Case-Study. 
+O diretório [Results](./Results/) armazena os resultados obtidos pelo método AOD. Este diretório possui os seguintes sub-diretórios: 1-YOB, 2-NAB, 3-Synthetic-Dataset e 4-Case-Study. Veja a estrutura de diretórios mostrada a seguir.
+
+![](./Docs/mermaid-diagram-flow.png)
 
 ### Results YOB
 
