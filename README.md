@@ -22,7 +22,7 @@ The [Results](./Results/) directory stores the results obtained by the AOD metho
 
 <details>
   <summary>Show directory structure</summary>
-  ![Diagram](./Docs/mermaid-diagram-flow.png =250x250)
+  <img src="./Docs/mermaid-diagram-flow.png" alt="diagram-flow" width="300"/>
 </details>
 
 ### Results YOB
