@@ -18,6 +18,25 @@ The [Instances](./Instances/) directory stores the instance files in csv that we
 
 The [Results](./Results/) directory stores the results obtained by the AOD method. This directory has the following subdirectories: 1-YOB, 2-NAB, 3-Synthetic-Dataset and 4-Case-Study.
 
+```mermaid
+graph LR
+B(Results) --> M1(1-YOB)
+B --> M2(2-NAB)
+B --> M3(3-Synthetic-Dataset)
+B --> M4(4-Case-Study)
+M1 --> M11(A1)
+M1 --> M12(A2)
+M1 --> M13(A3)
+M1 --> M14(A4)
+M2 --> M21(artificialNoAnomaly)
+M2 --> M22(artificialWithAnomaly)
+M2 --> M23(realAWSCloudwatch)
+M2 --> M24(realAdExchange)
+M2 --> M25(realKnownCause)
+M2 --> M26(realTraffic)
+M2 --> M27(realTweets)
+```
+
 ### Results YOB
 
 The [1-YOB](./Results/1-YOB/) directory has four subdirectories which are: A1, A2, A3 and A4. Inside each of these directories we have the images showing the results of the experiments on the YOB benchmark. The images give a photographic idea that shows how the method works. Some of the images from the experiments are shown below.
