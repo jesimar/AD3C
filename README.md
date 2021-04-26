@@ -18,7 +18,12 @@ The [Instances](./Instances/) directory stores the instance files in csv that we
 
 The [Results](./Results/) directory stores the results obtained by the AOD method. This directory has the following subdirectories: 1-YOB, 2-NAB, 3-Synthetic-Dataset and 4-Case-Study. See the directory structure shown below.
 
+
+
+<details>
+<summary>Show directory structure</summary>
 ![](./Docs/mermaid-diagram-flow.png)
+</details>
 
 ### Results YOB
 
